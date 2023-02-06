@@ -2223,7 +2223,7 @@ af .select__value._select-pseudo-label::before {
   }
 
   .main-block {
-    margin-top: 4.375rem;
+    margin-top: 6.875rem;
   }
 
   .main-block {
@@ -2851,15 +2851,15 @@ af .select__value._select-pseudo-label::before {
     }
 }
 
-@supports (margin-top: clamp( 4.375rem , 3.0706521739rem  +  6.5217391304vw , 8.125rem )) {
+@supports (margin-top: clamp( 6.875rem , 6.4402173913rem  +  2.1739130435vw , 8.125rem )) {
     .main-block {
-      margin-top: clamp( 4.375rem , 3.0706521739rem  +  6.5217391304vw , 8.125rem );
+      margin-top: clamp( 6.875rem , 6.4402173913rem  +  2.1739130435vw , 8.125rem );
     }
 }
 
-@supports not (margin-top: clamp( 4.375rem , 3.0706521739rem  +  6.5217391304vw , 8.125rem )) {
+@supports not (margin-top: clamp( 6.875rem , 6.4402173913rem  +  2.1739130435vw , 8.125rem )) {
     .main-block {
-      margin-top: calc(4.375rem + 3.75 * (100vw - 20rem) / 57.5);
+      margin-top: calc(6.875rem + 1.25 * (100vw - 20rem) / 57.5);
     }
 }
 
